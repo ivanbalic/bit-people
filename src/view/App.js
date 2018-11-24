@@ -1,19 +1,19 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import './App.css';
 import { Header } from './components/Header/Header';
 import { Footer } from './components/Footer/Footer';
+import Main from './components/Main/Main';
 
 
-class App extends Component {
-  render() {
+const App = () => {
     return (
       <Fragment>
         <Header />
+        <Main />
         <main />
         <Footer />
       </Fragment>
     );
-  }
 }
 
-export default App;
+export { App };

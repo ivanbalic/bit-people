@@ -2,15 +2,15 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = () => {
-    return (
-        <footer class="page-footer">
-          <div class="footer-copyright">
-            <div class="container">
-            ©{new Date().getFullYear} Copyright BitStudent
-            </div>
+  return (
+      <footer className="page-footer">
+        <div className="footer-copyright">
+          <div className="container">
+          ©{new Date().getFullYear()} Copyright BitStudent
           </div>
-        </footer>
-    );
+        </div>
+      </footer>
+  );
 }
 
 export { Footer };
