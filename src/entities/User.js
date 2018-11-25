@@ -23,7 +23,7 @@ class User {
     }
 
     getFullName = () => {
-        return `${capitalize(this.firstName)} ${capitalize(this.lastName)}`;
+        return `${this.capitalize(this.firstName)} ${this.capitalize(this.lastName)}`;
     }
 }
 

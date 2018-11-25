@@ -1,14 +1,15 @@
-import USERS_ENDPOINT from '../shared/data-source';
+import { USERS_ENDPOINT } from '../shared/data-source';
+import User from '../entities/User';
 
 const fetchData = () => {
 
     return fetch(USERS_ENDPOINT)
         .then((response) => {
 
-            response.json();
+            return response.json();
         })
         .then((response) => {
-
+            
             const listOfUsers = response.results;
             const mappedUsers = listOfUsers.map((user) => {
 

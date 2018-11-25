@@ -1,16 +1,34 @@
 import React, { Fragment, Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { fetchData } from '../../service/data-service';
+import { fetchData } from '../../../services/data-service';
+import { HomePage } from '../../pages/HomePage/HomePage';
+
 
 class Main extends Component {
     constructor(props){
         super(props);
-        
+        this.state = {
+            users: []
+        }
     }
 
-    render(){
+    componentDidMount() {
+
+        const users = fetchData();
+        
+        users.then((myUsers) => {
+            this.setState({
+                users: myUsers
+            });
+        });
+    }
+
+    render() {
         return (
-            <h1>THIS IS MANI</h1>
+            <Fragment>
+            <h1>THIS IS MAIN</h1>
+            <HomePage users={this.state.users}/>
+            </Fragment>
         );
     }
 }
