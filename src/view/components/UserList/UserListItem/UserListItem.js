@@ -7,8 +7,8 @@ const UserListItem = ({fullName, email, birthDate, photo}) => {
             <li className="collection-item avatar">
                 <img src={ photo } alt="user photo" className="circle" />
                 <p className="title">{ fullName }</p>
-                <p>{ email }</p>
-                <p>{ birthDate }</p>
+                <p><i className="material-icons tiny">email</i> { email }</p>
+                <p><i className="material-icons tiny">cake</i> { birthDate }</p>
             </li>
         </Fragment>
     );

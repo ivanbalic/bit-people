@@ -11,7 +11,7 @@ const UserList = ({users}) => {
             key={index} 
             fullName={user.getFullName()} 
             email={user.getHiddenEmail()} 
-            birthDate={birthDate.toLocaleDateString()} 
+            birthDate={birthDate.toLocaleDateString('de-DE')} 
             photo={pictures.thumbnail}
         />
     });
