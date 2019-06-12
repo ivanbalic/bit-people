@@ -1,1 +1,1 @@
-export const USERS_ENDPOINT = 'https://randomuser.me/api/?results=15';
+export const USERS_ENDPOINT = 'https://randomuser.me/api/?results=50';
