@@ -1,30 +1,35 @@
 class User {
-    constructor(firstName, lastName, email, birthDate, pictures, gender) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-        this.birthDate = new Date(birthDate);
-        this.pictures = pictures;
-        this.gender = gender;
-    }
+  constructor(firstName, lastName, email, birthDate, pictures, gender) {
+    this.email = email;
+    this.gender = gender;
+    this.pictures = pictures;
+    this.lastName = lastName;
+    this.firstName = firstName;
+    this.birthDate = new Date(birthDate);
+  }
+  capitalize(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+  }
 
-    capitalize = (string) => {
-        return string.charAt(0).toUpperCase() + string.slice(1);
-    }
+  getHiddenEmail() {
+    const array = this.email.split("@");
+    array[0] = array[0].slice(0, 3) + "...";
+    return array.join("@");
+  }
 
-    getHiddenEmail = () => {
+  getFullName() {
+    return `${this.capitalize(this.firstName)} ${this.capitalize(
+      this.lastName
+    )}`;
+  }
 
-        const splitedEmail = this.email.split("");
-        splitedEmail.splice(3, (splitedEmail.indexOf("@") - 3), "...");
-
-        const hiddenEmail = splitedEmail.join("");
-
-        return hiddenEmail;
-    }
-
-    getFullName = () => {
-        return `${this.capitalize(this.firstName)} ${this.capitalize(this.lastName)}`;
-    }
+  getFormatedBday() {
+    return this.birthDate.toLocaleDateString("en-GB", {
+      year: "numeric",
+      month: "short",
+      day: "numeric"
+    });
+  }
 }
 
-export default User;
+export { User };
