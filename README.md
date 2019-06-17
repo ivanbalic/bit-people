@@ -1,4 +1,4 @@
-## BIT People Project
+## BIT People
 
 User is able to see a LIST/GRID of users when App is started and have
 possibility to switch users view between LIST and GRID using view
