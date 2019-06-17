@@ -4,12 +4,12 @@ User is able to see a LIST/GRID of users when App is started and have
 possibility to switch users view between LIST and GRID using view
 change button in the header.
 
-#Each list and grid item displays:
+Each list and grid item displays:
 
--Avatar in circle
--Full name
--Email icon and hidden email address
--Birth date in DD.MM.YYYY format
+- Avatar in circle
+- Full name
+- Email icon and hidden email address
+- Birth date in DD.MM.YYYY format
 
 When App is closed it saves previous state, users that are displayed
 last, view mode (GRID/LIST), and when it opens again the same state is
