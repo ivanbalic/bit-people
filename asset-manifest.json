@@ -1,7 +1,7 @@
 {
   "main.css": "/bit-people/static/css/main.29c7c874.chunk.css",
-  "main.js": "/bit-people/static/js/main.908ebfc2.chunk.js",
-  "main.js.map": "/bit-people/static/js/main.908ebfc2.chunk.js.map",
+  "main.js": "/bit-people/static/js/main.c1133697.chunk.js",
+  "main.js.map": "/bit-people/static/js/main.c1133697.chunk.js.map",
   "static/css/1.d00b3771.chunk.css": "/bit-people/static/css/1.d00b3771.chunk.css",
   "static/js/1.d92e4cde.chunk.js": "/bit-people/static/js/1.d92e4cde.chunk.js",
   "static/js/1.d92e4cde.chunk.js.map": "/bit-people/static/js/1.d92e4cde.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/1.d00b3771.chunk.css.map": "/bit-people/static/css/1.d00b3771.chunk.css.map",
   "static/css/main.29c7c874.chunk.css.map": "/bit-people/static/css/main.29c7c874.chunk.css.map",
   "index.html": "/bit-people/index.html",
-  "precache-manifest.195545e73aa864a7ce687f0486fad6cb.js": "/bit-people/precache-manifest.195545e73aa864a7ce687f0486fad6cb.js",
+  "precache-manifest.e8850dddbea2cc091ea9dbfe0aa081ee.js": "/bit-people/precache-manifest.e8850dddbea2cc091ea9dbfe0aa081ee.js",
   "service-worker.js": "/bit-people/service-worker.js"
 }
