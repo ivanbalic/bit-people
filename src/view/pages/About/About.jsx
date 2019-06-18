@@ -14,15 +14,13 @@ const About = () => {
           possibility to switch users view between LIST and GRID using view
           change button in the header.
         </p>
-        <p>
-          Each list and grid item displays:
-          <ul>
-            <li>Avatar in circle</li>
-            <li>Full name</li>
-            <li>Email icon and hidden email address</li>
-            <li>Birth date in DD.MM.YYYY format</li>
-          </ul>
-        </p>
+        <p>Each list and grid item displays:</p>
+        <ul>
+          <li>Avatar in circle</li>
+          <li>Full name</li>
+          <li>Email icon and hidden email address</li>
+          <li>Birth date in DD.MM.YYYY format</li>
+        </ul>
         <p>
           When App is closed it saves previous state, users that are displayed
           last, view mode (GRID/LIST), and when it opens again the same state is
@@ -41,14 +39,12 @@ const About = () => {
           </a>
         </p>
         <h2>Stack</h2>
-        <p>
-          <ul>
-            <li>Language: HTML5, CSS3, JS(ES6+)</li>
-            <li>Library: React, MaterializeCSS</li>
-            <li>Package Manager: Yarn</li>
-            <li>Deployment: GitHub Pages</li>
-          </ul>
-        </p>
+        <ul>
+          <li>Language: HTML5, CSS3, JS(ES6+)</li>
+          <li>Library: React, MaterializeCSS</li>
+          <li>Package Manager: Yarn</li>
+          <li>Deployment: GitHub Pages</li>
+        </ul>
       </main>
       <AboutFooter />
     </Fragment>

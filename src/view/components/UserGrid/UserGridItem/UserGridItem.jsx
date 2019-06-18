@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./UserGridItem.css";
-
 const UserGridItem = ({ user }) => {
   const { pictures, gender } = user;
   const className = gender === "female" ? "card red lighten-4" : "card";

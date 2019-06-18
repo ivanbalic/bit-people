@@ -5,8 +5,8 @@ const AboutHeader = () => {
   return (
     <nav>
       <div className="nav-wrapper container">
-        <Link to="/" className="brand-logo center">
-          Bit People
+        <Link to="/" className="brand-logo center left">
+          <i className="material-icons">people</i>Bit People
         </Link>
       </div>
     </nav>
